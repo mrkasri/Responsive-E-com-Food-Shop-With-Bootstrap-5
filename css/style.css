@@ -1,0 +1,122 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: .4s;
+}
+
+.nav-item a:hover{
+    color: rgb(20, 220, 20);
+}
+
+.navbar-brand{
+    
+    width: 100px;
+}
+
+
+.search{
+    height: 40px;
+    outline: none;
+    border: 2px solid rgb(20, 220, 20);
+    background-color: transparent;
+    border-radius: 20px 0 0 0px;
+    border-right: none;
+    
+}
+
+.btn-search{
+    color: white;
+    background-color: rgb(20, 220, 20);
+    border-radius: 0px 0px 20px 0px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-search:hover{
+    
+    background-color: rgba(20, 220, 20,0.7);
+   
+}
+
+
+.cart{
+    cursor: pointer;
+    color: black;
+    transition: .3s;
+}
+
+.cart:hover{
+    color: rgb(20, 220, 20);
+}
+
+.navbar-toggler{
+    font-size: 24px;
+}
+
+.navbar-toggler:hover{
+    color: rgb(20, 220, 20);
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgb(20, 220, 20);
+    color: rgb(20, 220, 20);
+}
+
+/* navbar */
+
+
+.hero{
+    background: url(../img/m1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: (left,top);
+    height: 100vh;
+}
+
+.hero .justify{
+    text-align: justify;
+}
+
+
+.hero-btn1{
+        color: white;
+        background-color: rgb(20, 220, 20);
+        border-radius: 20px 0px 20px 0px;
+
+        transition: 0.3s;  
+        border: 2px solid transparent;
+}
+
+.hero-btn1:hover{
+    color: rgb(20, 220, 20);
+    border: 2px solid rgb(20, 220, 20); 
+    background: transparent; 
+}
+
+
+.hero-btn2{
+    color: rgb(20, 220, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 20px 0px;
+
+    transition: 0.3s;  
+    border: 2px solid rgb(20, 220, 20);
+}
+
+.hero-btn2:hover{
+color: white;
+border: 2px solid rgb(20, 220, 20);
+background: rgb(20, 220, 20); 
+}
