@@ -247,6 +247,13 @@ height: 90vh;
 .contact{
     background: url(../img/cont.jpg) no-repeat;
     background-size: cover;
+    color: white;
+    width: 100%;
 
+}
+
+.contact .line{
+    background-color: white;
+    
 }
 /* contact */
