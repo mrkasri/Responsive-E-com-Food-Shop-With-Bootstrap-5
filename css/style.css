@@ -3,6 +3,53 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+.line{
+    height: 6px;
+    width: 40%;
+    background-color: rgb(20, 220, 20);
+    display: inline-block;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.star{
+    color: rgb(20, 220, 20);
+}
+
+.btn1{
+    color: white;
+    background-color: rgb(20, 220, 20);
+    border-radius: 20px 0px 20px 0px;
+
+    transition: 0.3s;  
+    border: 2px solid transparent;
+}
+
+.btn1:hover{
+color: rgb(20, 220, 20);
+border: 2px solid rgb(20, 220, 20); 
+background: transparent; 
+}
+
+
+.btn2{
+color: rgb(20, 220, 20);
+background-color: transparent;
+border-radius: 20px 0px 20px 0px;
+
+transition: 0.3s;  
+border: 2px solid rgb(20, 220, 20);
+}
+
+.btn2:hover{
+color: white;
+border: 2px solid rgb(20, 220, 20);
+background: rgb(20, 220, 20); 
 }
 
 /* navbar */
@@ -77,46 +124,129 @@
 /* navbar */
 
 
+
+/* hero section  */
 .hero{
     background: url(../img/m1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: (left,top);
-    height: 100vh;
-}
 
-.hero .justify{
-    text-align: justify;
+    height: 90vh;
 }
 
 
-.hero-btn1{
-        color: white;
-        background-color: rgb(20, 220, 20);
-        border-radius: 20px 0px 20px 0px;
 
-        transition: 0.3s;  
-        border: 2px solid transparent;
+
+
+
+
+/* hero section  */
+
+
+/* main section */
+
+.about{
+    background: url(../img/abut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 90vh;
+}
+/* main section */
+
+
+/* welcome section */
+
+.welcome{
+    background-color: rgb(20, 220, 20);
 }
 
-.hero-btn1:hover{
+.welcome .line{
+    background-color: white;
+}
+
+.welcome span{
     color: rgb(20, 220, 20);
-    border: 2px solid rgb(20, 220, 20); 
-    background: transparent; 
+}
+
+.welcome .card{
+    border: none;
+    border-radius: 30px 0 30px 0;
+    cursor: pointer;
+}
+/* welcome section */
+
+
+/* product section  */
+
+.product .card{
+   
+    border: 1px dashed rgb(20, 220, 20);
+    border-radius: 30px 0 30px 0;
+}
+
+.product .btn1{
+    margin-right: auto;
+    
+}
+/* product section  */
+
+/* discount section */
+
+.discount{
+    background-color: rgb(20, 220, 20);
+    color: white;
+}
+
+.discount .btn2{
+    background-color: white;
+    border-color: rgb(20, 220, 20);
+}
+.discount .btn2:hover{
+    background-color: rgb(20, 220, 20);
+    border-color: white;
+}
+/* discount section */
+
+
+/* best products */
+
+.best-product .card{
+    border-radius: 30px 0 30px 0;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.best-product .card:hover{
+    background-color: rgb(20, 220, 20);
+    
+}
+
+.best-product .card:hover p,
+.best-product .card:hover span,
+.best-product .card:hover h5{
+    color: white!important;
+    transition: all 0.4s ease;
 }
 
 
-.hero-btn2{
-    color: rgb(20, 220, 20);
-    background-color: transparent;
-    border-radius: 20px 0px 20px 0px;
+/* best products */
 
-    transition: 0.3s;  
-    border: 2px solid rgb(20, 220, 20);
-}
 
-.hero-btn2:hover{
-color: white;
-border: 2px solid rgb(20, 220, 20);
-background: rgb(20, 220, 20); 
+/* new arrivals */
+
+.new-arrival .card{
+    border-color: rgb(20, 220, 20);
+    border-radius: 30px 0 30px 0;
+
 }
+/* new arrivals */
+
+
+/* contact */
+
+.contact{
+    background: url(../img/cont.jpg) no-repeat;
+    background-size: cover;
+
+}
+/* contact */
