@@ -197,11 +197,11 @@ height: 90vh;
     color: white;
 }
 
-.discount .btn2{
+.discount, .contact .btn2{
     background-color: white;
     border-color: rgb(20, 220, 20);
 }
-.discount .btn2:hover{
+.discount, .contact .btn2:hover{
     background-color: rgb(20, 220, 20);
     border-color: white;
 }
@@ -254,6 +254,19 @@ height: 90vh;
 
 .contact .line{
     background-color: white;
+    
+}
+
+
+
+.contact .input{
+    margin-top: 10px;
+    padding: .5rem 0;
+    width: 100%;
+    outline: none;
+    border: 2px solid white;
+    resize: none;
+    border-radius: 20px 0 20px 0px;
     
 }
 /* contact */
