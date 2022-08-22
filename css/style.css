@@ -39,7 +39,7 @@ background: transparent;
 
 .btn2{
 color: rgb(20, 220, 20);
-background-color: transparent;
+background-color: white;
 border-radius: 20px 0px 20px 0px;
 
 transition: 0.3s;  
@@ -48,7 +48,7 @@ border: 2px solid rgb(20, 220, 20);
 
 .btn2:hover{
 color: white;
-border: 2px solid rgb(20, 220, 20);
+border: 2px solid white;
 background: rgb(20, 220, 20); 
 }
 
@@ -261,7 +261,7 @@ height: 90vh;
 
 .contact .input{
     margin-top: 10px;
-    padding: .5rem 0;
+    padding: .5rem .2rem;
     width: 100%;
     outline: none;
     border: 2px solid white;
@@ -269,4 +269,31 @@ height: 90vh;
     border-radius: 20px 0 20px 0px;
     
 }
+
+.contact .card1, .contact .list-group-item{
+    
+    border: 2px solid white;
+    border-radius: 20px 0 20px 0px;
+    
+}
 /* contact */
+
+
+/* footer */
+
+.social{
+    display: flex;
+    justify-content:space-evenly;
+    color: white;
+}
+
+.social i{
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+}
+
+.social i:hover{
+    color: rgb(20, 220, 20);
+}
+/* footer */
